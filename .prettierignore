@@ -1,0 +1,6 @@
+.git/
+.husky/
+.next/
+node_modules/
+next-env.d.ts
+pnpm-lock.yaml
