@@ -6,6 +6,17 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 npx create-next-app@latest . --ts --tailwind --eslint --app --no-src-dir --turbopack --no-import-alias --empty --use-pnpm
 ```
 
+## Modules
+
+- NextJS (ReactJS)
+- Typescript
+- TailwindCSS
+- shadcn
+- ESLint
+- Prettier
+- Husky
+- Lint-staged
+
 ## Getting Started
 
 First, run the development server:
