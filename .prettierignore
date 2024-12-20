@@ -1,0 +1,21 @@
+# Ignore artifacts:
+build/
+coverage/
+*.log
+*.tsbuildinfo
+certificates/
+pnpm-lock.yaml
+
+# Ignore node_modules:
+node_modules/
+
+# Ignore Next.js build output
+.next/
+out/
+next-env.d.ts
+
+# Ignore environment variables
+.env*.local
+
+# Ignore miscellaneous
+.DS_Store
