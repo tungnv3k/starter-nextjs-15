@@ -1,5 +1,17 @@
 import type { Metadata } from "next";
+import localFont from "next/font/local";
 import "./globals.css";
+
+const interVar = localFont({
+  src: "./fonts/InterVariable.woff2",
+  variable: "--font-inter-var",
+  weight: "100 900",
+});
+const interVarItalic = localFont({
+  src: "./fonts/InterVariable-Italic.woff2",
+  variable: "--font-inter-var-italic",
+  weight: "100 900",
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -13,7 +25,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={`${interVar.variable} ${interVarItalic.variable}`}>
+        {children}
+      </body>
     </html>
   );
 }
